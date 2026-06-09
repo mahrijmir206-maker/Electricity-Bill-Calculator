@@ -1,4 +1,6 @@
-Electricity_Bill_Calculator_and_Complaint_Tracker Electricity Bill Calculator & Complaint Tracker A console-based C++ application that calculates electricity bills based on HAZECO tariff rates and allows users to file and track complaints.
+# Electricity_Bill_Calculator_and_Complaint_Tracker
+Electricity Bill Calculator & Complaint Tracker
+A console-based C++ application that calculates electricity bills based on HAZECO tariff rates and allows users to file and track complaints.
 
 Developed By
 
@@ -23,6 +25,7 @@ Semester: 2 — PAF-IAST Haripur
 📝 Complaint Filing — File, update, and track complaint status
 
 💾 File Storage — Bills and complaints saved to .txt files
+
 
 🧮 Tariff Structure
 
@@ -62,23 +65,23 @@ Commercial LoadRate
 
 Industrial LoadRate
 
-≤ 500 KWRs. 38/unit>
+≤ 500 KWRs. 38/unit> 
 
 500 KWRs. 42/unit
 
 🔢 Bill Calculation Formula
 
-Energy Charges = Units × Rate per unit
+Energy Charges     = Units × Rate per unit
 
-Fixed Charges = Load KW × 500 (Commercial & Industrial only)
+Fixed Charges      = Load KW × 500  (Commercial & Industrial only)
 
-FC Surcharge = Units × 3.23 (Residential only)
+FC Surcharge       = Units × 3.23   (Residential only)
 
-Electricity Duty = 1.5% of (Energy Charges + FC Surcharge)
+Electricity Duty   = 1.5% of (Energy Charges + FC Surcharge)
 
-GST = 18% of (Energy Charges + Fixed Charges + Electricity Duty)
+GST                = 18% of (Energy Charges + Fixed Charges + Electricity Duty)
 
-Total Bill = All of the above added together
+Total Bill         = All of the above added together
 
 🏗️ OOP Concepts Used
 
@@ -95,6 +98,7 @@ Total Bill = All of the above added together
 6.Operator Overloading — > operator for comparing bill amounts
 
 7.Dynamic Memory — new and delete for user objects
+
 
 🚀 How to Run
 
@@ -114,6 +118,8 @@ bashg++ main_code.cpp -o main_code
 
 📁 Output Files
 
-FileContentsbills.txt Saved bill amounts
+FileContentsbills.txt Saved bill amounts 
 
 complaints.txt Filed complaint records
+
+![Bill Output](screenshot.png)
